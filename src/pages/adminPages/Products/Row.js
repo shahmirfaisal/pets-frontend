@@ -56,7 +56,7 @@ export const Row = ({ product }) => {
           </div>
         </TableCell>
         <TableCell>{product.name}</TableCell>
-        <TableCell>${product.price}</TableCell>
+        <TableCell>{product.price} PKR</TableCell>
         <TableCell>{product.quantity}</TableCell>
         <TableCell>{product.sold}</TableCell>
         <TableCell>{product.status}</TableCell>

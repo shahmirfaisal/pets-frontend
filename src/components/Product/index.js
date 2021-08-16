@@ -47,7 +47,7 @@ export const Product = (props) => {
         >
           {props.name}
         </Typography>
-        <Typography className={classes.price}>${props.price}</Typography>
+        <Typography className={classes.price}>{props.price} PKR</Typography>
         <div className={classes.reviews}>
           <Rating value={props.rating} readOnly />
           <Typography>({props.reviews.length} Reviews)</Typography>

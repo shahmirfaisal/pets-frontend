@@ -73,7 +73,7 @@ export const Cart = withUserAuth(true)((props) => {
                         {item.product.name}
                       </Typography>
                     </TableCell>
-                    <TableCell>${item.product.price}</TableCell>
+                    <TableCell>{item.product.price} PKR</TableCell>
                     <TableCell style={{ minWidth: "150px" }}>
                       {loading ? (
                         <CircularProgress size={35} />

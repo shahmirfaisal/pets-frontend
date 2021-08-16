@@ -230,7 +230,7 @@ export const ProductForm = withAdminAuth(true)(({ edit }) => {
               onChange={changePriceHandler}
               InputProps={{
                 startAdornment: (
-                  <InputAdornment position="start">$</InputAdornment>
+                  <InputAdornment position="start">PKR</InputAdornment>
                 ),
               }}
             />
