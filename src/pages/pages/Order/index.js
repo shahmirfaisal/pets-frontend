@@ -254,7 +254,7 @@ export const Order = ({ admin }) => {
               To verify your payment, please send the payment details and order
               ID on:
             </Typography>
-            <Typography>Whatsapp: 03225052506 OR 03231534908</Typography>
+            <Typography>Whatsapp: 03225052506 OR 03338768603</Typography>
             <Typography>OR</Typography>
             <Typography>Email: shahmir049@gmail.com</Typography>
           </Box>

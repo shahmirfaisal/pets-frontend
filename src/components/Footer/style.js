@@ -12,9 +12,12 @@ export const useStyles = makeStyles({
     },
   },
   container: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    flexWrap: "wrap",
+    // display: "flex",
+    // justifyContent: "space-between",
+    // alignItems: "center",
+    // flexWrap: "wrap",
+  },
+  ul: {
+    marginLeft: "30px",
   },
 });
